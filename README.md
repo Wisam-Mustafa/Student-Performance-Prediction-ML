@@ -6,7 +6,7 @@ This project aims to predict students' final grades (**G3**) based on their past
 
 ## Key Results
 
-I trained and evaluated three models. The **Random Forest Regressor** outperformed others with the following metrics:
+I trained and evaluated three models **(Linear Regression, Random Forest, Gradient Boosting)**. The **Random Forest Regressor** outperformed others with the following metrics:
 
 - **R-squared:** 0.84 (The model explains 84% of the variance).
 - **MAE:** 1.12
@@ -30,6 +30,7 @@ I trained and evaluated three models. The **Random Forest Regressor** outperform
   <br>
   <em>Figure 3: Actual vs. Predicted Grades using Gradient Boosting</em>
 </div>
+
 ## Key Insights
 
 Based on the Feature Importance analysis:
@@ -45,7 +46,6 @@ Based on the Feature Importance analysis:
   <br>
   <em>Figure 4: Feature Importance Plot for Random Forest Model</em>
 </div>
-
 
 ## Tools & Libraries Used
 
