@@ -41,9 +41,9 @@ Based on the Feature Importance analysis:
 <br>
 
 <div align="center">
-  <img src="screenshots/s5.png" width="700">
+  <img src="screenshots/s4.png" width="700">
   <br>
-  <em>Figure 4: Random Forest Feature Importances</em>
+  <em>Figure 4: Feature Importance Plot for Random Forest Model</em>
 </div>
 
 
