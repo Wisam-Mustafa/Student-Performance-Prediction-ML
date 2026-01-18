@@ -19,7 +19,7 @@ Based on the Feature Importance analysis:
 
 1.  **Past Grades (G1 & G2):** These are the strongest predictors of the final grade.
 2.  **Absences:** A crucial factor; high absences strongly correlate with lower grades.
-3.  **Zero Grades Anomaly:** We identified that a grade of '0' acts as an outlier, likely indicating a missed exam rather than low academic ability.
+3.  **Zero Grades Anomaly:** I identified that a grade of '0' acts as an outlier, likely indicating a missed exam rather than low academic ability.
 
 ## Tools & Libraries Used
 
