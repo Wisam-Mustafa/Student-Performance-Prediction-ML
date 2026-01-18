@@ -13,6 +13,23 @@ I trained and evaluated three models. The **Random Forest Regressor** outperform
 - **MSE:** 3.32
 - **RMSE:** 1.82
 
+<div align="center">
+  <img src="screenshots/s1.png" width="700">
+  <br>
+  <em>Figure 1: Actual vs. Predicted Grades using Linear Regression</em>
+</div>
+<br>
+<div align="center">
+  <img src="screenshots/s2.png" width="700">
+  <br>
+  <em>Figure 2: Actual vs. Predicted Grades using Random Forest</em>
+</div>
+<br>
+<div align="center">
+  <img src="screenshots/s3.png" width="700">
+  <br>
+  <em>Figure 3: Actual vs. Predicted Grades using Gradient Boosting</em>
+</div>
 ## Key Insights
 
 Based on the Feature Importance analysis:
@@ -20,6 +37,15 @@ Based on the Feature Importance analysis:
 1.  **Past Grades (G1 & G2):** These are the strongest predictors of the final grade.
 2.  **Absences:** A crucial factor; high absences strongly correlate with lower grades.
 3.  **Zero Grades Anomaly:** I identified that a grade of '0' acts as an outlier, likely indicating a missed exam rather than low academic ability.
+
+<br>
+
+<div align="center">
+  <img src="screenshots/s5.png" width="700">
+  <br>
+  <em>Figure 4: Random Forest Feature Importances</em>
+</div>
+
 
 ## Tools & Libraries Used
 
